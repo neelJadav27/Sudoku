@@ -1,0 +1,34 @@
+<html>
+    <script type="text/javascript" src="index.js"></script>
+    <link type="text/css" rel="stylesheet" href="css/sudoku.css"/>
+  </head>
+  <body>
+    <div id="main">
+      <h1 id="title">Sudoku</h1>
+      <div id="game_options">
+        <select id="difficulty" >
+        <option value="0">Easy</option>
+        <option value="1">Medium</option>
+        <option value="2">Hard</option>
+        </select>
+        
+        <button onclick="startGame()" id="btn_main"><h3>Start</h3></button>
+      </div>
+      <div id="grid"></div>
+      <div id="btn_answer">
+        <div class="btn_options" id="btn_options" onclick="verifyAnswer('1')"><h3>1</h3></div>
+        <div class="btn_options" id="btn_options" onclick="verifyAnswer('2')"><h3>2</h3></div>
+        <div class="btn_options" id="btn_options" onclick="verifyAnswer('3')"><h3>3</h3></div>
+        <div class="btn_options" id="btn_options" onclick="verifyAnswer('4')"><h3>4</h3></div>
+        <div class="btn_options" id="btn_options" onclick="verifyAnswer('5')"><h3>5</h3></div>
+        <div class="btn_options" id="btn_options" onclick="verifyAnswer('6')"><h3>6</h3></div>
+        <div class="btn_options" id="btn_options" onclick="verifyAnswer('7')"><h3>7</h3></div>
+        <div class="btn_options" id="btn_options" onclick="verifyAnswer('8')"><h3>8</h3></div>
+        <div class="btn_options" id="btn_options" onclick="verifyAnswer('9')"><h3>9</h3></div>
+      </div>
+    </div>
+
+  </div>
+  
+  </body>
+</html>

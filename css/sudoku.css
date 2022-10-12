@@ -1,0 +1,222 @@
+@import url(http://fonts.googleapis.com/css?family=Calibri:400,300,700);
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    width: 70px;
+    height: 30px;
+    float: left;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.grid-item-divisionBy3{
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    border-right: 4px solid rgba(0, 0, 0, 0.8);;
+    width: 70px;
+    height: 30px;
+    float: left;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid-item-bottomLine{
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    border-bottom: 4px solid rgba(0, 0, 0, 0.8);;
+    width: 70px;
+    height: 30px;
+    float: left;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.grid-item-bottomAndRightLine{
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    border-bottom: 4px solid rgba(0, 0, 0, 0.8);
+    border-right: 4px solid rgba(0, 0, 0, 0.8);
+    width: 70px;
+    height: 30px;
+    float: left;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#btn_answer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 80%;
+    align-items: center;
+}
+#btn_options{
+    background-color: skyblue;
+    width: 100%;
+    margin: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15%;
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    height: 35px
+}
+
+#btn_main{
+    margin: 0.5%;
+    width: 10%;
+}
+
+#btn_clicked{
+    border: 2px solid rgba(234, 214, 32, 0.8);
+    background-color: skyblue;
+    width: 100%;
+    margin: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15%;
+}
+
+#game_options{
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#difficulty{
+    margin: 1%;
+}
+
+.highLightBox{
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid darkblue;
+    width: 70px;
+    height: 30px;
+    float: left;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*hover properties*/
+
+#btn_options:hover{
+    transition: 0.7s;
+    background-color: bisque;
+}
+.grid-item:hover {
+    transition: 0.1s;
+    background-color: thistle;
+}
+.grid-item-divisionBy3:hover{
+    transition: 0.1s;
+    background-color: thistle;
+}
+.grid-item-bottomLine:hover{
+    transition: 0.1s;
+    background-color: thistle;
+}
+.grid-item-bottomAndRightLine:hover{
+    transition: 0.1s;
+    background-color: thistle;
+}
+
+.tempCheck{
+    background-color: red;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    width: 70px;
+    height: 30px;
+    float: left;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#title{
+    font-family: 'Arial Narrow';
+}
+.disable_btn{
+    pointer-events: none;
+}
+
+
+/* testing */
+.mt-100 {
+    margin-top: 100px
+}
+
+.container {
+    margin-top: 200px
+}
+
+.card {
+    position: relative;
+    display: flex;
+    width: 450px;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid #d2d2dc;
+    border-radius: 4px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgb(249, 249, 250);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(212, 182, 212, 1);
+    box-shadow: 0px 0px 5px 0px rgb(161, 163, 164)
+}
+
+.card .card-body {
+    padding: 1rem 1rem
+}
+
+.card-body {
+    flex: 1 1 auto;
+    padding: 1.25rem
+}
+
+p {
+    font-size: 14px
+}
+
+h4 {
+    margin-top: 18px
+}
+
+.cross {
+    padding: 10px;
+    color: #d6312d;
+    cursor: pointer
+}
+
+.continue:focus {
+    outline: none
+}
+
+.continue {
+    border-radius: 5px;
+    text-transform: capitalize;
+    font-size: 13px;
+    padding: 8px 19px; 
+    cursor: pointer;
+    color: #fff;
+    background-color: #D50000
+}
+
+.continue:hover {
+    background-color: #D32F2F !important
+}
